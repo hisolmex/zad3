@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,500);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+[class*="col-"]{
+	 float:left;   
+     padding: 12px; 
+ }
+ * {
+box-sizing: border-box;
+}
+body {
+	background: white;
+	margin: 0 auto;
+	font-family: 'Rubik' ,sans-serif;
+}
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+ }
+.col-1 {
+	width: 8.33%;
+	}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-20 {width: 20%;}
+.col-40 {width: 40%;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+.col-offset-12 {margin-left: 100%;}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.jumbotron {
+	background-image: url(http://www.tapeciarnia.pl/tapety/normalne/tapeta-kobieta-sunaca-na-nartach-po-sniegu-w-gorach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	min-height: 450px;
+}
+.jumbotron h1 {
+	font-size: 60px;
+	letter-spacing: 2px;
+	color: white;
+	text-shadow: 8px 3px 2px rgba(9, 163, 255, 0.62);
+}
+.jumbotron p {
+	line-height: 24px;
+	font-size: 13px;
+	color: white;
+	text-shadow: 8px 3px 2px rgba(9, 163, 255, 0.62);
+}
+.vertical{
+	position: absolute;
+    top: 50%;
+    transform: rotate(-90deg) translateX(50%);
+    left: 33px;
+    letter-spacing: 17px;
+	
+}
+.jumbotron .vertical {
+	font-size: 24px;
+}
+.jumbotron img {
+	height: 41px;
+	width: auto;
+	margin-top: 32px;
+}
+.slogan {
+	position: absolute;
+	top: 45%;
+	
+}
+.text {
+	text-align: left;
+	line-height: 24px;
+	
+}
+.text h1 {
+	color: #222626;
+    font-size: 35px;
+}
+.text p {
+	color: #959595;
+	margin-top: 39px;
+	font-size: 14px;
+}
+.text2 {
+	text-align: left;
+	line-height: 24px;
+}
+.text2 h1 {
+	font-size: 35px;
+	margin: 10px;
+	margin-top: 54px;
+	color: #222626;
+}
+.text2 h2 {
+	font-size: 13px;
+	color: #222626;
+}
+.text2 p{
+	color: #959595;
+	font-size: 14px;
+}
+
+.text2 .col-3 {
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+.text3 {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a7/d7/68/a7d76891d772fc522c85e47feb7849f5.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	color: white;
+}
+.text3 .col-6 {
+    padding-top: 44px;
+}
+.text3 h1 {
+	font-size: 60px;
+    line-height: 70px;
+	text-shadow: 4px 4px 2px rgba(138, 106, 62, 0.84);
+}
+.text3 p {
+	line-height: 24px;
+    font-size: 14px;
+	text-shadow: 4px 4px 2px rgba(138, 106, 62, 0.84);
+	
+}
+.reason .col-4 {
+	padding-top: 44px;
+}
+.reason {
+	background-color: #82ca9c;
+	height: 500px;
+	color: white;
+	padding-top: 115px;
+}
+.reason h1 {
+	margin-left: 10px;
+}
+.reason h2 {
+	font-size: 13px;
+	line-height: 24px;
+}
+.reason p {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+}
+.footer {
+	background-color: #192431;
+    color: white;
+    padding-top: 115px;
+	padding-bottom: 44px;
+    height: 500px;
+}
+.footer ul {
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+    padding: 0;
+	line-height: 24px;
+}
+.space {
+	margin: 0;
+	padding: 0;
+}
+.form-control input {
+    width: 66%;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: 6px 12px;
+    float: left;
+    font-size: 14px;
+	height: 50px;
+}
+.form-control button {
+    /*border-radius: 3%; */
+    background-color: #82ca9c;
+    border-color: #82ca9c;
+    width: 15%;
+    font-size: 29px;
+    text-align: center;
+    padding: 0;
+	float: left;
+	height: 50px;
+    color: white;
+	border: 0;
+    /* display: block; */
+    margin: 0;
+}
+/*
+.form-control input:hover {
+	outline: red 1px solid;
+}
+*/
+.form-control button:hover {
+	background: #467959;
+	outline: 0;
+}
+.form-control button:active,
+.form-control button:visited,
+.form-control button:focus {
+	outline: 0;
+}
