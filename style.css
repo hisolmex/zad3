@@ -136,7 +136,7 @@ body {
 	background-size: cover;
     background-repeat: no-repeat;
 	background-position: center;
-	height: 600px;
+	min-height: 600px;
 	color: white;
 }
 .text3 .col-6 {
@@ -158,7 +158,7 @@ body {
 }
 .reason {
 	background-color: #82ca9c;
-	height: 500px;
+	min-height: 500px;
 	color: white;
 	padding-top: 115px;
 }
@@ -179,7 +179,7 @@ body {
     color: white;
     padding-top: 115px;
 	padding-bottom: 44px;
-    height: 500px;
+    min-height: 500px;
 }
 .footer ul {
 	text-decoration: none;
@@ -229,4 +229,85 @@ body {
 .form-control button:visited,
 .form-control button:focus {
 	outline: 0;
+}
+@media (max-width: 1445px) {
+	.jumbotron .vertical  {
+		display: none;
+	}
+	
+}
+@media (max-width: 1024px) {
+	.slogan {
+    
+    margin-left: 10px;
+	}
+	.jumbotron img {
+     margin-left: 10px;
+	}
+	.jumbotron p {
+		background-color: rgba(44, 147, 216, 0.3);
+		border-radius: 10px;
+	}
+}
+@media (max-width: 720px) {
+	.text2 .col-3 {
+		width: 50%;
+		display: block;
+	}
+	.text2 h1,h2 {
+		text-align: center;
+	}
+	.text3 .col-6 {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.reason {
+		padding-top: 40px;
+	}
+}
+@media (max-width: 540px) {
+	.text2 .col-3 {
+		width: 100%;
+		display: block;
+	}
+	.text3 p {
+		background-color: rgba(0, 16, 31, 0.3);
+	}
+	footer .col-6 {
+		width: 100%;
+		display: block;
+	}
+	
+}
+@media (max-width: 420px) {
+	.jumbotron p {
+		margin-right: 10px;
+	}
+	.reason .col-4 {
+		width: 100%;
+		display: block;
+	}
+	.text h1 {
+		width: 80%;
+		display: block;
+		margin-left: 20px;
+	}
+
+	.text p {
+		margin-left: 20px;
+	}
+	.text .col-6 {
+		width: 100%;
+		display: block;
+	}
+	.reason {
+		padding-top: 15px;
+	}
+	
+	footer .col-4 {
+		width: 100%;
+		display: block;
+	}
+
 }
