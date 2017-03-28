@@ -337,6 +337,10 @@ body {
 		width: 50%;
 		display: block;
 	}
+	.white-box .col-6 {
+		width: 100%;
+		display: block;
+	}
 	.text2 h1,h2 {
 		text-align: center;
 	}
@@ -354,6 +358,7 @@ body {
 		width: 100%;
 		display: block;
 	}
+	
 	.text3 p {
 		background-color: rgba(0, 16, 31, 0.3);
 	}
@@ -361,6 +366,7 @@ body {
 		width: 100%;
 		display: block;
 	}
+	
 	
 }
 @media (max-width: 420px) {
