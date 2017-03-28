@@ -313,6 +313,67 @@ body {
 	font-size: 25px;
     padding-left: 7px;
 }
+i.fa.fa-long-arrow-right {
+    margin-left: 10px;
+}
+.gallery a {
+	color: white;
+	text-decoration: none;
+}
+.gallery [class*="col-"] {
+	padding: 0;
+}
+.item  {
+    background: #f5989d;
+    padding: 12px;
+	padding-bottom: 39px;
+	color: white;
+	min-height: 300px;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+.item.color1:hover {
+	background: rgb(66,158,220);
+}
+.item.color2:hover {
+	background: rgb(66,158,220);
+}
+.item.color3:hover {
+	background: rgb(66,158,220);
+}
+.item.color3b:hover {
+	background: rgb(66,158,220);
+}
+.item.color4:hover {
+	background: rgb(66,158,220);
+}
+.item.color5:hover {
+	background: rgb(66,158,220);
+}
+.item.color6:hover {
+	background: rgb(66,158,220);
+}
+.color2 {
+	background: #615f7d;
+}
+.color3 {
+	background-image: URL('https://i.ytimg.com/vi/W8tVwiYsgHg/maxresdefault.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.color3b {
+	background-image: URL('http://www.wallpapers-web.com/data/out/132/4932072-macro-nature-wallpapers.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.color4 {
+	background: #bd8cbf;
+}
+.color6 {
+	background: #82ca9c;
+}
+
+
 @media (max-width: 1445px) {
 	.jumbotron .vertical  {
 		display: none;
@@ -341,6 +402,10 @@ body {
 		width: 100%;
 		display: block;
 	}
+	.col-3.item {
+		display: block;
+		width: 50%;
+	}
 	.text2 h1,h2 {
 		text-align: center;
 	}
@@ -365,6 +430,10 @@ body {
 	footer .col-6 {
 		width: 100%;
 		display: block;
+	}
+	.col-3.item {
+		display: block;
+		width: 100%;
 	}
 	
 	
