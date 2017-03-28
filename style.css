@@ -439,6 +439,10 @@ i.fa.fa-long-arrow-right {
 	
 }
 @media (max-width: 420px) {
+	.slogan {
+		position: absolute;
+		top: 39%;
+	}
 	.jumbotron p {
 		margin-right: 10px;
 	}
