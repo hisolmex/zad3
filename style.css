@@ -175,6 +175,9 @@ body {
 	line-height: 24px;
 	text-align: left;
 }
+.gallery .container {
+	max-width: none;
+}
 .footer p {
 	line-height: 24px;
 }
@@ -326,7 +329,7 @@ i.fa.fa-long-arrow-right {
 .item  {
     background: #f5989d;
     padding: 12px;
-	padding-bottom: 39px;
+	padding-bottom: 0;
 	color: white;
 	min-height: 300px;
 	transition-duration: 1s;
@@ -380,6 +383,13 @@ i.fa.fa-long-arrow-right {
 	}
 	
 }
+@media (min-width: 1025px) {
+	.item {
+		padding-left: 45px;
+
+	}
+	
+}
 @media (max-width: 1024px) {
 	.slogan {
     
@@ -420,6 +430,10 @@ i.fa.fa-long-arrow-right {
 }
 @media (max-width: 540px) {
 	.text2 .col-3 {
+		width: 100%;
+		display: block;
+	}
+	.col-6 {
 		width: 100%;
 		display: block;
 	}
